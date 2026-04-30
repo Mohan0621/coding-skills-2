@@ -1,80 +1,102 @@
-# Recurrence Lab 🚀
+🚀 Recurrence Lab
 
-**Recurrence Lab** is a high-end educational workspace dedicated to mastering **Dynamic Programming (DP)** through visual intuition. Unlike standard competitive programming tools, Recurrence Lab prioritizes the **"State-First"** pedagogical framework—guiding learners to derive recurrence formulas naturally from visual inputs and decision branching.
+Recurrence Lab is an interactive visualization platform designed to help learners see how Dynamic Programming (DP) works.
+Instead of memorizing formulas, users understand DP through state visualization, decision-making, and recurrence building.
 
----
+🎯 Key Idea
 
-## 🧠 Dynamic Programming: The Pedagogical Flow
+Most learners struggle with DP because they jump directly into formulas like f(i, j).
 
+👉 Recurrence Lab flips the approach:
 
-Recurrence Lab enforces a strict, instructor-led flow to demystify DP:
+Start with visual states
+Explore choices (decisions)
+Then derive the recurrence relation naturally
+🧠 Dynamic Programming: Learning Flow
+Visualize the State
+Highlight indices directly in the input (string, array, or timeline)
+Explore Choices
+Each recursive call becomes a decision:
+Match or skip?
+Buy or sell?
+Include or exclude?
+Derive the Recurrence
+Understand the meaning first → then formalize the equation
+🏗️ Core Data Structures & Visual Models
+🌳 Recursion Trees (State Space)
+Each node = a subproblem
+Edges = recursive calls
+Shows how solutions build from smaller problems
+🧩 Hash Maps (Memoization)
+Stores computed states like i:1, j:2
+Avoids recomputation
+Visual “Memo Hit” highlights overlapping subproblems
+📊 2D Matrices (Tabulation)
+Represents full DP table
+Shows dependencies (left, top, diagonal)
+Bridges recursion → iteration
+📜 Linear Event Log
+All visualizations stay synchronized
+Ensures consistent step-by-step playback
+🎥 Preview
 
-1.  **Visualize the State**: Instead of starting with `f(i, j)`, we start by highlighting indices in the actual input (e.g., indices in a string or days in a stock chart).
-2.  **Explore Choices**: Every recursive call is framed as a **Decision**. "Do I match these characters?" or "Do I buy this stock today?"
-3.  **Derive the Recurrence**: Only after understanding the physical meaning of the state and the impact of choices do we formally define the recurrence relation.
+Replace these with actual screenshots of your project for best impact.
 
----
-
-## 🏗️ Data Structures in DP
-
-The platform leverages specific data structures to visualize the core principles of Dynamic Programming:
-
-### 1. **Recursion Trees (State Space Exploration)**
-To visualize **Recursive Branching**, we model the execution as a dynamic tree.
-- **Structure**: Every unique recursive call is a node. Edges represent the depth-first discovery of subproblems.
-- **Optimal Substructure**: The tree visually demonstrates how a parent subproblem waits for its children to return values, combining them to form an optimal solution.
-
-### 2. **Hash Maps (Top-Down Memoization)**
-To visualize **Overlapping Subproblems**, we implement a global memoization layer using **Hash Maps**.
-- **Role**: Maps serialized state keys (e.g., `i:1, j:2`) to their calculated results.
-- **Visual Pruning**: When a subproblem is revisited, the engine marks it as a **"Memo Hit"** and prevents further expansion. This provides a concrete visual proof of how DP reduces exponential complexity to polynomial time.
-
-### 3. **Matrices / 2D Arrays (Bottom-Up Tabulation)**
-To bridge the gap between recursion and iteration, we use **Matrices**.
-- **State Table**: A 2D grid representing the entire subproblem space.
-- **Dependency Tracking**: Cells highlight which previous results (left, top, or diagonal) they depend on, mirroring the logic seen in the recursion tree.
-
-### 4. **Linear Event Logs (Synchronized Execution)**
-All visualizers are driven by a single **Linear Array of Step Events**. This ensures that the Tree, the Tabulation table, and the Instructor Walkthrough remain perfectly synchronized during playback.
-
----
-
-## 🎨 Premium Features
-
-- **Draggable Glassmorphism HUDs**: High-end, translucent panels that provide live context (Intuition, State, Logic) without obscuring the visualization.
-- **Infinite Navigation**: A high-performance canvas with **Infinite Pan** and **Dynamic Zoom** to explore large, complex recursion structures.
-- **Minimalist Academic UX**: A sidebar-less, full-screen workspace that focuses entirely on the derivation of logic.
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework**: Next.js 16 (App Router)
-- **State Management**: Zustand
-- **Animations**: Framer Motion
-- **Styling**: Vanilla CSS + Tailwind
-- **Logic**: TypeScript
-
----
-
-## 🚀 Getting Started
-
-```bash
+📚 Example Problems Supported
+Longest Common Subsequence (LCS)
+0/1 Knapsack
+Fibonacci (Intro to DP)
+Edit Distance
+Stock Buy & Sell Problems
+✨ Premium Features
+🪟 Draggable Glassmorphism HUDs
+Context panels (State, Intuition, Logic)
+🔍 Infinite Canvas Navigation
+Smooth zoom + pan for large recursion trees
+🎯 Minimalist Academic UI
+Distraction-free full-screen workspace
+🔄 Synchronized Visual Playback
+Tree, table, and explanation in sync
+🛠️ Tech Stack
+Framework: Next.js 16 (App Router)
+State Management: Zustand
+Animations: Framer Motion
+Styling: Tailwind CSS + Vanilla CSS
+Language: TypeScript
+🚀 Getting Started
 # Install dependencies
 npm install
 
-# Start the lab
+# Run the development server
 npm run dev
-```
 
-Visit [http://localhost:3000](http://localhost:3000) to begin your DP journey.
+Open: http://localhost:3000
 
----
+❓ Why Recurrence Lab?
 
-## 👥 Contributors
+Traditional DP learning:
 
-Mohan Chandra AP24110011742
-Ashrit AP24110011746
-Nithin AP24110011694
-Ayushi AP24110011719
-Muskan AP24110011709
+❌ Memorization-heavy
+❌ Hard to visualize
+❌ Confusing state transitions
+
+Recurrence Lab:
+
+✅ Visual-first learning
+✅ Clear decision-based recursion
+✅ Intuitive transition to tabulation
+🔮 Future Enhancements
+🤖 AI-powered hints and explanations
+🧠 Auto-generation of recurrence relations
+🏆 Competitive programming practice mode
+🌍 Multi-language support (C++, Python, Java)
+👥 Contributors
+Mohan Chandra (AP24110011742)
+Ashrit (AP24110011746)
+Nithin (AP24110011694)
+Ayushi (AP24110011719)
+Muskan (AP24110011709)
+⭐ Final Note
+
+Recurrence Lab is not just a tool—it’s a new way to think about Dynamic Programming.
+Understand first. Code later.
