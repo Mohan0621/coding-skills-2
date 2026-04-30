@@ -73,7 +73,8 @@ Visit [http://localhost:3000](http://localhost:3000) to begin your DP journey.
 
 ## 👥 Contributors
 
-- **Balaji Chedurupalli** - AP24110011667
-- **K Rushikesh** - AP24110011493
-- **Soma Saish** - AP24110011658
-
+Mohan Chandra AP24110011742
+Ashrit AP24110011746
+Nithin AP24110011694
+Ayushi AP24110011719
+Muskan AP24110011709
