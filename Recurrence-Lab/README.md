@@ -1,102 +1,42 @@
-🚀 Recurrence Lab
+# Recurrence Lab
 
-Recurrence Lab is an interactive visualization platform designed to help learners see how Dynamic Programming (DP) works.
-Instead of memorizing formulas, users understand DP through state visualization, decision-making, and recurrence building.
+## Description
+This project focuses on developing algorithms and methods to analyze and implement recurrence relations.
 
-🎯 Key Idea
+## Installation
+To get started with the project, clone the repository and install the necessary dependencies:
 
-Most learners struggle with DP because they jump directly into formulas like f(i, j).
+```
+git clone https://github.com/Mohan0621/coding-skills-2.git
+cd coding-skills-2
+```
 
-👉 Recurrence Lab flips the approach:
+## Usage
+You can run the application by executing the main script as follows:
 
-Start with visual states
-Explore choices (decisions)
-Then derive the recurrence relation naturally
-🧠 Dynamic Programming: Learning Flow
-Visualize the State
-Highlight indices directly in the input (string, array, or timeline)
-Explore Choices
-Each recursive call becomes a decision:
-Match or skip?
-Buy or sell?
-Include or exclude?
-Derive the Recurrence
-Understand the meaning first → then formalize the equation
-🏗️ Core Data Structures & Visual Models
-🌳 Recursion Trees (State Space)
-Each node = a subproblem
-Edges = recursive calls
-Shows how solutions build from smaller problems
-🧩 Hash Maps (Memoization)
-Stores computed states like i:1, j:2
-Avoids recomputation
-Visual “Memo Hit” highlights overlapping subproblems
-📊 2D Matrices (Tabulation)
-Represents full DP table
-Shows dependencies (left, top, diagonal)
-Bridges recursion → iteration
-📜 Linear Event Log
-All visualizations stay synchronized
-Ensures consistent step-by-step playback
-🎥 Preview
+```
+python main.py
+```
 
-Replace these with actual screenshots of your project for best impact.
+## Contributors
+### Team Information
+We are proud to have the following contributors in this project:
 
-📚 Example Problems Supported
-Longest Common Subsequence (LCS)
-0/1 Knapsack
-Fibonacci (Intro to DP)
-Edit Distance
-Stock Buy & Sell Problems
-✨ Premium Features
-🪟 Draggable Glassmorphism HUDs
-Context panels (State, Intuition, Logic)
-🔍 Infinite Canvas Navigation
-Smooth zoom + pan for large recursion trees
-🎯 Minimalist Academic UI
-Distraction-free full-screen workspace
-🔄 Synchronized Visual Playback
-Tree, table, and explanation in sync
-🛠️ Tech Stack
-Framework: Next.js 16 (App Router)
-State Management: Zustand
-Animations: Framer Motion
-Styling: Tailwind CSS + Vanilla CSS
-Language: TypeScript
-🚀 Getting Started
-# Install dependencies
-npm install
+- **Alice Smith**  
+  Role: Lead Developer  
+  LinkedIn: [Alice's LinkedIn](https://www.linkedin.com/in/alicesmith)  
 
-# Run the development server
-npm run dev
+- **Bob Johnson**  
+  Role: Frontend Developer  
+  LinkedIn: [Bob's LinkedIn](https://www.linkedin.com/in/bobjohnson)  
 
-Open: http://localhost:3000
+- **Charlie Brown**  
+  Role: Data Scientist  
+  LinkedIn: [Charlie's LinkedIn](https://www.linkedin.com/in/charliebrown)  
 
-❓ Why Recurrence Lab?
+- **Diana Prince**  
+  Role: Project Manager  
+  LinkedIn: [Diana's LinkedIn](https://www.linkedin.com/in/dianaprince)  
 
-Traditional DP learning:
-
-❌ Memorization-heavy
-❌ Hard to visualize
-❌ Confusing state transitions
-
-Recurrence Lab:
-
-✅ Visual-first learning
-✅ Clear decision-based recursion
-✅ Intuitive transition to tabulation
-🔮 Future Enhancements
-🤖 AI-powered hints and explanations
-🧠 Auto-generation of recurrence relations
-🏆 Competitive programming practice mode
-🌍 Multi-language support (C++, Python, Java)
-👥 Contributors
-Mohan Chandra (AP24110011742)
-Ashrit (AP24110011746)
-Nithin (AP24110011694)
-Ayushi (AP24110011719)
-Muskan (AP24110011709)
-⭐ Final Note
-
-Recurrence Lab is not just a tool—it’s a new way to think about Dynamic Programming.
-Understand first. Code later.
+### Our Goal
+We aim to create effective tools for students and researchers interested in recurrence relations and their applications.
