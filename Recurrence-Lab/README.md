@@ -75,9 +75,9 @@ Visit [http://localhost:3000](http://localhost:3000) to begin your DP journey.
 
 - **Mohan Chandra** - AP24110011742
 - **Ashrit** - AP24110011746
-- ** Nithin** - AP24110011694
-- ** Ayushi** - AP24110011719
-- ** Muskan** - AP24110011709
+- **Nithin** - AP24110011694
+- **Ayushi** - AP24110011719
+- **Muskan** - AP24110011709
  
   
  
